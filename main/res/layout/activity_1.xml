@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity1_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4E4E4E"
+    tools:context=".Activity1">
+
+    <TextView
+        android:id="@+id/activity1_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:contextClickable="false"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="SCHULTE TABLE"
+        android:textColor="#83DCD9"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07999998" />
+
+    <TextView
+        android:id="@+id/opt1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:clickable="true"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal"
+        android:onClick="onNext1"
+        android:text="EASY"
+        android:textColor="#ED9D9D"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity1_title" />
+
+    <TextView
+        android:id="@+id/opt2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal"
+        android:onClick="onNext2"
+        android:text="MEDIUM"
+        android:textColor="#ED9D9D"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt1" />
+
+    <TextView
+        android:id="@+id/opt3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal"
+        android:onClick="onNext3"
+        android:text="HARD"
+        android:textColor="#ED9D9D"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt2" />
+
+
+    <TextView
+        android:id="@+id/opt4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal"
+        android:onClick="onNext4"
+        android:text="EXTRA HARD"
+        android:textColor="#ED9D9D"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt3" />
+
+    <TextView
+        android:id="@+id/opt5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:fontFamily="casual"
+        android:gravity="center_horizontal"
+        android:onClick="onHighScore"
+        android:text="High Score"
+        android:textColor="#ED9D9D"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt4" />
+
+    <TextView
+        android:id="@+id/instruction2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maintain Sequence, Start from 1"
+        android:textColor="#C7CD8A"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/opt5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
