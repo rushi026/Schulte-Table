@@ -367,6 +367,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:adUnitId="ca-app-pub-3827539680357564/4329403967" />
+        app:adUnitId="adUnitID" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
